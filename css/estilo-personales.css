@@ -1,0 +1,55 @@
+.icono{
+    width: 60px;
+    height: 60px;
+    padding: none;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 60% 40%; /* Dos columnas de igual ancho */
+  grid-gap: 20px;
+  padding: 20px;
+  
+
+}
+
+.ca-im{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 40% 60%;
+}
+
+.seccion{
+    padding-top: 110px;
+}
+
+.container-seccion{
+   display: flex;
+   flex-wrap: nowrap;
+   padding: 20px;
+   margin: 10px;
+}
+
+.contenedor{
+    padding-top: 10px;
+}
+
+/* Ajuste de estilos para dispositivos pequeños */
+
+  /* Ajuste de estilos para dispositivos medianos y grandes */
+  @media (min-width: 375px) {
+    .carrusel {
+      display: flex; /* Usar flexbox para alinear los elementos verticalmente */
+      flex-direction: column; /* Alinear los elementos en una columna */
+    }
+    
+    .carrusel {
+      order: 1; /* El carrusel viene primero en dispositivos medianos y grandes */
+    }
+    
+    .seccion {
+      order: 2; /* El texto y el botón vienen después en dispositivos medianos y grandes */
+    }
+  }
+  

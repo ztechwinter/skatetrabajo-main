@@ -1,0 +1,21 @@
+.column-card{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+main{
+    padding-top: 50px;
+}
+
+.column-card-second{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top:20px ;
+}
+
+.card-img-top{
+    height: 400px;
+}
